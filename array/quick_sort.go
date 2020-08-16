@@ -20,7 +20,7 @@ func QuickSort(arr []int) []int {
 
 /*--------------------------- 内部函数 -----------------------*/
 
-///
+/// 排序核心算法
 func doSort(arr []int, low int, high int) {
 
 	if low < high {
